@@ -1,0 +1,26 @@
+{
+    "name": "mcc",
+    "displayName": "Minecraft Command Code",
+    "description": "Colorizer for Minecraft Command Code, used by one-command.gnasp.com",
+    "version": "1.0.0",
+    "publisher": "Gnasp",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mcc",
+            "aliases": ["Minecraft Command Code", "mcc"],
+            "extensions": ["mcc"],
+            "configuration": "./mcc.configuration.json"
+        }],
+        "grammars": [{
+            "language": "mcc",
+            "scopeName": "source.mcc",
+            "path": "./syntaxes/mcc.tmLanguage"
+        }]
+    }
+}
