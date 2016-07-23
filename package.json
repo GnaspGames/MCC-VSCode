@@ -1,7 +1,7 @@
 {
     "name": "mcc",
     "displayName": "Minecraft Command Code",
-    "description": "Code Colorizer for Minecraft Command Code (MCC) as used by Smelt (smelt.gnasp.com)",
+    "description": "Code Colorizer language support for Minecraft Command Code (MCC) as used by Smelt (smelt.gnasp.com)",
     "version": "1.1.1",
     "publisher": "Gnasp",
     "engines": {
